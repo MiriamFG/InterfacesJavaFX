@@ -1,0 +1,23 @@
+
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "PanelUsuario",
+      "request": "launch",
+      "mainClass": "app.PanelUsuario",
+      "vmArgs": "--module-path \"F:\\javafx-sdk-25.0.5\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "JavaFX",
+      "request": "launch",
+      "mainClass": "app.Main",
+      "vmArgs": "--module-path \"F:\\javafx-sdk-25.0.5\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
